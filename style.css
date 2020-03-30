@@ -1,0 +1,58 @@
+
+* {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.tweet {
+	display: flex;
+	align-items: flex-start;
+	/*flexbox only has rows. ---> */
+	padding: 10px;
+}
+
+.content {
+	flex: 1;
+}
+
+.avatar {
+	margin-right: 10px;
+	height: 6em;
+
+}
+
+.action {
+	display: flex;
+	padding:0;
+}
+
+.action li {
+	list-style: none;
+	margin-right: 10px;
+}
+
+p, ul {
+	margin: 0;
+}
+
+.author-meta, p {
+	margin-bottom: 1em;
+}
+
+.name {
+	font-weight: 600;
+	/*/*600 = bold, 400 = normal, range is 100 to 900*/
+}
+
+.action button {
+  border: none;
+  color: #657786;
+  font-size: 16px;
+  cursor: pointer;
+}
+.action button:hover {
+  color: #1da1f2;
+}
+
+
+
